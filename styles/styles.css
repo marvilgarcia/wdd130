@@ -43,3 +43,18 @@ nav {
     background-color: white;
     color: steelblue;
   }
+
+  nav, footer {
+    background-color: rgb(214, 187, 36);
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
