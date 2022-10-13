@@ -239,6 +239,22 @@ main section img{
 }
 
 
+/***
+Second page content
+***/
+.body-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.section-1{
+    
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
