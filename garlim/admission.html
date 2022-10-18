@@ -16,14 +16,14 @@
                 <nav>
                     <a href="index.html">Home</a>
                     <a href="courses.html">Courses</a>
-                    <a href="admission.html">Admisions</a>
+                    <a href="admission.html">Admissions</a>
                     <a href="site-plan.html">Site Plan</a>
                     <input type="text" placeholder="Search..">
                 </nav>
             </header>
             <div id="principal">
                 <div id="principal-box">
-                    <img id="principal-img" src="images/afroromanzo.png" alt="Orquest" width="50%">
+                    <img id="principal-img" src="images/pexels-pixabay-210764.png" alt="Orquest" width="50%">
                 </div>
                 <section id="principal-msg">
                     <h1 class="home-title">Where Music is made</h1>
@@ -32,19 +32,46 @@
                         <a class="apply" href="admission.html">Apply Now</a>
                     </div>
                 </section>
-            </div> 
-            <main class="home-grid">
-                <section class="second">
-                    <h1>Come and learn with us and you will be able to discover the artist that you are</h1>
-                    <h4 class="second-msg">Our goal is to reach all young people, adults or children that every time they hear a simple melody, their hearts are filled with emotions. We have classes for different types of instruments, if you still do not decide on one, we help you find your vocation and become a confidant of that instrument. We are creating a family of musicians who support each other, where you will feel a supportive and familiar environment. We are looking for you !! If you are one of those who love music and want to grow by learning a new instrument or perfecting your technique, that is you.</h4>
-                    <img class="second-img" src="images/cottonbro-7097455.png" alt="playing chello" width="50%">
-                
-                </section>
-                <section class="third">
-                    <h1>Music is More than sounds...</h1>
-                    <img class="third-img" src="images/pexels-juan-pablo-serrano-arenas-1021142.jpg" alt="piano" width="50%">
-                    <h4 class="third-msg">Know our training courses and discover your talent. We offer music training courses in which you will learn to use an instrument and read music. Explore our repertoire of courses and you will find the one that fits perfectly with you.</h4>
-                </section>  
+            </div>
+            <main class="body-grid">
+
+
+                <div id="feedback"></div>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" >
+                        </li>
+                        <li>
+                        <label for="mail">Last Name:</label>
+                        <input type="text" id="last_name" name="user_last_name" >
+                        </li>
+                        <li>
+                        <label for="mail">Phone number:</label>
+                        <input type="number" id="number" name="user_number">
+                        </li>
+                        <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                        </li>
+                        <li>
+                        <label for="mail">Date of birth</label>
+                        <input type="number" id="date" name="user_date">
+                        </li>
+                        <li>
+                        <label for="msg">Country</label>
+                        <input type="text" id="country" name="Country" >
+                        </li>
+                        <li>
+                        <label for="msg">Intrument of interest</label>
+                        <input type="text" id="instrument" name="user_instrument" >
+                        </li>            
+                        <li class="button">
+                            <button type="submit">Apply</button>
+                        </li>
+                    </ul>
+                </form>             
             </main>
             <footer>
                 <p>GarlimMusic &copy; 2022 - Marvil Garcia</p>
