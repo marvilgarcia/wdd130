@@ -301,3 +301,34 @@ main section img{
     text-align: center;
     margin: 4%;
 }
+
+
+/** Second page**/
+
+.course1-msg,.course2-msg,.course3-msg,.course4-msg,.course5-msg{
+    text-align: justify;
+    font-family:"Zen Old Mincho" ;
+    
+}
+
+.course1,.course2,.course3,.course4,.course5{    
+    
+    padding: 5%;
+
+
+}
+
+.course1-img,.course2-img,.course3-img,.course4-img,.course5-img{
+    width: auto;
+    height: 300px;
+    padding: 5%;
+}
+.home-grid-title{
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align: center;
+    font-family:"Mochiy Pop P One" ;
+}
+h3{
+    font-family: "Mochiy Pop P One";
+}
