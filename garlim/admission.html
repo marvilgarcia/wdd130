@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garlim</title>
+    <link rel="stylesheet" href="styles\styles.css">
 </head>
     <body>
         <div id="content">
@@ -16,12 +17,17 @@
                 <nav>
                     <a href="index.html">Home</a>
                     <a href="courses.html">Courses</a>
-                    <a href="admission.html">Admissions</a>
+                    <a href="admission.html">Admisions</a>
                     <a href="site-plan.html">Site Plan</a>
-                    <input type="text" placeholder="Search..">
+                
                 </nav>
             </header>
             <div id="principal">
+                <div id="search">
+                    <input type="text" placeholder="Search.." >
+                </div>
+                
+        
                 <div id="principal-box">
                     <img id="principal-img" src="images/pexels-pixabay-210764.png" alt="Orquest" width="50%">
                 </div>
@@ -33,12 +39,14 @@
                     </div>
                 </section>
             </div>
-            <main class="body-grid">
-
+            <main class="form-grid">
+                <div class="home-grid-title" >
+                    <h2>Come and learn with us</h2>
+                </div>
 
                 <div id="feedback"></div>
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
+                <form action="/my-handling-form-page"  method="post">
+                    <ul class="my-form">
                         <li>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user_name" >
@@ -48,7 +56,7 @@
                         <input type="text" id="last_name" name="user_last_name" >
                         </li>
                         <li>
-                        <label for="mail">Phone number:</label>
+                        <label for="mail">Phone:</label>
                         <input type="number" id="number" name="user_number">
                         </li>
                         <li>
@@ -56,15 +64,15 @@
                         <input type="email" id="mail" name="user_email">
                         </li>
                         <li>
-                        <label for="mail">Date of birth</label>
-                        <input type="number" id="date" name="user_date">
+                        <label for="mail">Birth: </label>
+                        <input type="date" id="date" name="user_date">
                         </li>
                         <li>
                         <label for="msg">Country</label>
                         <input type="text" id="country" name="Country" >
                         </li>
                         <li>
-                        <label for="msg">Intrument of interest</label>
+                        <label for="msg">Intrument:</label>
                         <input type="text" id="instrument" name="user_instrument" >
                         </li>            
                         <li class="button">
